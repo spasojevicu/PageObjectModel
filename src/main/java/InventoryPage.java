@@ -22,7 +22,7 @@ public class InventoryPage extends BasePage {
     WebElement sort;
 
     @FindBy(className = "inventory_item_price")
-    WebElement cart;
+    WebElement price;
 
 
     public InventoryPage(ChromeDriver driver)
